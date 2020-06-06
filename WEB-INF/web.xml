@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>DyD</display-name>
+  <welcome-file-list>
+    <welcome-file>Index</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>com.driverco.dyd.pages.Index</servlet-class>
+    </servlet>
+   <servlet>
+        <servlet-name>Game</servlet-name>
+        <servlet-class>com.driverco.dyd.pages.Game</servlet-class>
+    </servlet>
+   <servlet>
+        <servlet-name>Commands</servlet-name>
+        <servlet-class>com.driverco.dyd.pages.Commands</servlet-class>
+    </servlet>
+   <servlet>
+        <servlet-name>Character</servlet-name>
+        <servlet-class>com.driverco.dyd.pages.Character</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/Index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Game</servlet-name>
+        <url-pattern>/Game</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Commands</servlet-name>
+        <url-pattern>/Commands</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Character</servlet-name>
+        <url-pattern>/Character</url-pattern>
+    </servlet-mapping>
+</web-app>
