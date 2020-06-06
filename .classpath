@@ -10,5 +10,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="WEB-INF/lib"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hamcrest-2.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hamcrest-core-2.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
